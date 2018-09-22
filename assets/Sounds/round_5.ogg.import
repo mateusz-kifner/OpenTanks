@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/round_5.ogg-6749b03a5a2d3e89c9d1ae73b2a6bccd.oggstr"
+
+[deps]
+
+source_file="res://assets/Sounds/round_5.ogg"
+dest_files=[ "res://.import/round_5.ogg-6749b03a5a2d3e89c9d1ae73b2a6bccd.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

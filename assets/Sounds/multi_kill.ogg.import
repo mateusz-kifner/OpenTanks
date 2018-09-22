@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/multi_kill.ogg-52c903382217a5704bbd3de0c5ebb7f3.oggstr"
+
+[deps]
+
+source_file="res://assets/Sounds/multi_kill.ogg"
+dest_files=[ "res://.import/multi_kill.ogg-52c903382217a5704bbd3de0c5ebb7f3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/it's_a_tie.ogg-5d5880df3b0bc9589361a958daf75b30.oggstr"
+
+[deps]
+
+source_file="res://assets/Sounds/it's_a_tie.ogg"
+dest_files=[ "res://.import/it's_a_tie.ogg-5d5880df3b0bc9589361a958daf75b30.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

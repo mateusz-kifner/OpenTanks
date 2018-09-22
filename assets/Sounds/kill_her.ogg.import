@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/kill_her.ogg-0b2a8c3bbd53fd6fc29e405be54bd573.oggstr"
+
+[deps]
+
+source_file="res://assets/Sounds/kill_her.ogg"
+dest_files=[ "res://.import/kill_her.ogg-0b2a8c3bbd53fd6fc29e405be54bd573.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

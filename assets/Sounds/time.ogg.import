@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/time.ogg-25b96e28eff5fd2510284643940c19b6.oggstr"
+
+[deps]
+
+source_file="res://assets/Sounds/time.ogg"
+dest_files=[ "res://.import/time.ogg-25b96e28eff5fd2510284643940c19b6.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

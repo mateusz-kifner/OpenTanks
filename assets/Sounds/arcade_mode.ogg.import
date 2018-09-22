@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/arcade_mode.ogg-ce41da895ee7c0a8264de9380bfabe59.oggstr"
+
+[deps]
+
+source_file="res://assets/Sounds/arcade_mode.ogg"
+dest_files=[ "res://.import/arcade_mode.ogg-ce41da895ee7c0a8264de9380bfabe59.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
