@@ -3,6 +3,9 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/shadedDark42.png-c7dde8405a6e5fb34c82d5082fdf657f.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 

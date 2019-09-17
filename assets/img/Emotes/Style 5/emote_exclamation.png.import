@@ -3,6 +3,9 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/emote_exclamation.png-376cbd6da300be9516ec1291c9f73824.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 

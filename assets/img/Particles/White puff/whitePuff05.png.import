@@ -3,6 +3,9 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/whitePuff05.png-f84c6ea5fae13a5a47b398d77cbc681a.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 

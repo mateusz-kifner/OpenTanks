@@ -3,6 +3,9 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/joystic.svg-e40d500e65b5ba1f2cda70a882ccc845.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 

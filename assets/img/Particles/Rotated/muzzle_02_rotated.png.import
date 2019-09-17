@@ -3,6 +3,9 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/muzzle_02_rotated.png-0dbaac5db91f4b3703b4c826d0cb16dd.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 

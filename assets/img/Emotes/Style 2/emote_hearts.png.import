@@ -3,6 +3,9 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/emote_hearts.png-8d9723ffa67d0d1c0670b1014e965704.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 

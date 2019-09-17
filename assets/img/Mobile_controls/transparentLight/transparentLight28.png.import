@@ -3,6 +3,9 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/transparentLight28.png-e04e71bbbff65fd90e7c93b562af3c4d.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 

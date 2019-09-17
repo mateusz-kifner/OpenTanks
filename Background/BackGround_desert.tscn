@@ -1,0 +1,93 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://screen_tex.shader" type="Shader" id=1]
+[ext_resource path="res://Assets/img/background_elements/bg.png" type="Texture" id=2]
+[ext_resource path="res://Assets/img/background_elements/white.png" type="Texture" id=3]
+[ext_resource path="res://Assets/img/background_elements/hills1.png" type="Texture" id=4]
+[ext_resource path="res://Assets/img/background_elements/piramid.png" type="Texture" id=5]
+[ext_resource path="res://Assets/img/background_elements/temple.png" type="Texture" id=6]
+[ext_resource path="res://Assets/img/background_elements/cloud3.png" type="Texture" id=7]
+[ext_resource path="res://Assets/img/background_elements/cloud5.png" type="Texture" id=8]
+[ext_resource path="res://Assets/img/background_elements/cloud8.png" type="Texture" id=9]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 1 )
+
+[node name="BackGround" type="ParallaxBackground"]
+
+[node name="sky" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 1024, 0 )
+
+[node name="sky" type="Sprite" parent="sky"]
+modulate = Color( 0.611765, 0.87451, 1, 1 )
+material = SubResource( 1 )
+position = Vector2( 227.218, 151.376 )
+texture = ExtResource( 2 )
+
+[node name="sand" type="Sprite" parent="sky"]
+modulate = Color( 0.690196, 0.658824, 0.435294, 1 )
+material = SubResource( 1 )
+position = Vector2( 166.502, 1084.82 )
+texture = ExtResource( 3 )
+
+[node name="sky2" type="Sprite" parent="sky"]
+modulate = Color( 0.611765, 0.87451, 1, 1 )
+material = SubResource( 1 )
+position = Vector2( 1425.86, 151.376 )
+texture = ExtResource( 2 )
+
+[node name="2plan" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2( 999, 0 )
+
+[node name="sand2" type="Sprite" parent="2plan"]
+modulate = Color( 0.690196, 0.658824, 0.435294, 1 )
+material = SubResource( 1 )
+position = Vector2( 1227.68, 1089.15 )
+texture = ExtResource( 3 )
+
+[node name="Sprite2" type="Sprite" parent="2plan"]
+modulate = Color( 0.74902, 0.658824, 0.454902, 1 )
+position = Vector2( 360, 520 )
+texture = ExtResource( 4 )
+
+[node name="Sprite3" type="Sprite" parent="2plan"]
+modulate = Color( 0.74902, 0.658824, 0.454902, 1 )
+position = Vector2( 1824, 520 )
+texture = ExtResource( 4 )
+
+[node name="piramid" type="Sprite" parent="2plan"]
+modulate = Color( 0.643137, 0.560784, 0.376471, 1 )
+position = Vector2( 129.517, 450 )
+texture = ExtResource( 5 )
+
+[node name="temple" type="Sprite" parent="2plan"]
+modulate = Color( 0.678431, 0.580392, 0.372549, 1 )
+position = Vector2( 631.629, 473.065 )
+texture = ExtResource( 6 )
+
+[node name="Sprite" type="Sprite" parent="2plan"]
+modulate = Color( 0.827451, 0.709804, 0.45098, 1 )
+position = Vector2( 200, 530 )
+texture = ExtResource( 4 )
+
+[node name="Sprite4" type="Sprite" parent="2plan"]
+modulate = Color( 0.827451, 0.709804, 0.45098, 1 )
+position = Vector2( 1194.93, 530 )
+texture = ExtResource( 4 )
+
+[node name="Clouds" type="ParallaxLayer" parent="."]
+editor/display_folded = true
+motion_mirroring = Vector2( 1024, 0 )
+
+[node name="cloud2" type="Sprite" parent="Clouds"]
+position = Vector2( -386.542, 4.4274 )
+texture = ExtResource( 7 )
+
+[node name="cloud4" type="Sprite" parent="Clouds"]
+position = Vector2( 277.361, 90.9021 )
+texture = ExtResource( 8 )
+
+[node name="cloud5" type="Sprite" parent="Clouds"]
+position = Vector2( -196.855, 241.536 )
+texture = ExtResource( 9 )
+
